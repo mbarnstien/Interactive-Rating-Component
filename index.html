@@ -16,42 +16,42 @@
 
 </head>
 <body>
-  <div class="rating-container">
+  <section id="rating-card">
     <figure class="star">
       <img src="images/icon-star.svg" alt="star" />
     </figure>
-    <h1>How did we do?</h1>
-    <p id="rating-text">Please let us know how we did with your support request. All feedback is appreciated 
+    <h2 class="card-heading">How did we do?</h2>
+    <p class="card-text">Please let us know how we did with your support request. All feedback is appreciated 
     to help us improve our offering!</p>
-    <ul>
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-      <li>4</li>
-      <li>5</li>
-    </ul>
-    <button class="submit-button">Submit</button>
-  </div> 
+    <div>
+      <button class="rating-buttons" type="button" value="1">1</button>
+      <button class="rating-buttons" type="button" value="2">2</button>
+      <button class="rating-buttons" type="button" value="3">3</button>
+      <button class="rating-buttons" type="button" value="4">4</button>
+      <button class="rating-buttons" type="button" value="5">5</button>
+    </div>
+    <button class="submit-button" type="submit">Submit</button>
+  </section> 
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
-  <div class="thanks-container">
-    <figure class="phone">
+  <section id="ty-card">
+    <figure class="ty-image center">
       <img src="images/illustration-thank-you.svg" alt="Thank you Image" />
     </figure>
-    <h3>You selected 1<!-- Add rating here --> out of 5</h3>
+    <p class="card-rate center">You selected <span></span> out of 5</p>
 
-    <h2>Thank you!</h2>
+    <h2 class="card-heading center">Thank you!</h2>
 
-    <p id="ty-text">We appreciate you taking the time to give a rating. If you ever need more support, 
+    <p class="card-text center">We appreciate you taking the time to give a rating. If you ever need more support, 
     don’t hesitate to get in touch!</p>
-  </div>
+  </section>
   <!-- Thank you state end -->
 
   
-  <div class="attribution">
+  <footer>
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Meg</a>.
-  </div>
+  </footer>
 </body>
 </html>
