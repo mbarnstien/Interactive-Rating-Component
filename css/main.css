@@ -18,7 +18,7 @@ body {
     height: 100vh;
 }
 
-.hidden {
+.hide {
     display: none;
 }
 
@@ -72,14 +72,9 @@ body {
     cursor: pointer;
 }
 
-.rating-buttons-greyed {
+.clicked {
     background-color: hsl(217, 12%, 63%);
     color: hsl(0, 0%, 100%);
-}
-
-.clicked {
-    color: hsl(0, 0%, 100%);
-    background-color: hsl(25, 97%, 53%);
 }
 
 .submit-button {
